@@ -1,4 +1,4 @@
-# Binary Trees
+# Sort Methods
 
 ## Required
 
