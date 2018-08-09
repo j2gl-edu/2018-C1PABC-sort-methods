@@ -1,27 +1,24 @@
 package orden;
 
-import java.util.Scanner;
-
 public class SelectionSort {
 
     public static void main(String[] args) {
 
-        Scanner teclado = new Scanner(System.in);
-        int A[] = new int[20];
         int menor, indice, n, i, j;
-        System.out.print("Ingrese dimension del arreglo: ");
-        n = teclado.nextInt();
+        n = 20;
+        int A[] = new int[n];
 
-        for (i = 1; i <= n; i++) {
-            System.out.print("A[" + i + "]= ");
-            A[i] = teclado.nextInt();
+        System.out.print("Arreglo Original: ");
+        for (i = 0; i < n; i++) {
+            A[i] = (int) Math.round(Math.random() * 1000);
+            System.out.print(A[i] + ", ");
         }
 
-        for (i = 1; i <= n - 1; i++) {
+        for (i = 0; i < n; i++) {
             menor = A[i];
             indice = i;
 
-            for (j = i + 1; j <= n; j++) {
+            for (j = i + 1; j < n; j++) {
                 if (menor > A[j]) {
                     menor = A[j];
                     indice = j;
@@ -33,10 +30,10 @@ public class SelectionSort {
 
         }
 
-        System.out.println("EL ARREGLO ORDENADO");
-        for (i = 1; i <= n; i++) {
-            System.out.print(" " + A[i]);
-
+        System.out.println();
+        System.out.print("EL ARREGLO ORDENADO: ");
+        for (i = 0; i < n; i++) {
+            System.out.print(A[i] + ", ");
         }
 
     }
