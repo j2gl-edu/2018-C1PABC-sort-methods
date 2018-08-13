@@ -17,7 +17,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>edu.advanced.tree.MainTree</mainClass>
+                            <mainClass>edu.advanced.sort.ShellSort</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

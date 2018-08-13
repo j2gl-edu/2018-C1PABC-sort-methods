@@ -1,4 +1,4 @@
-package orden;
+package edu.advanced.sort;
 
 import java.util.Random;
 
@@ -11,12 +11,12 @@ public class ShellSort {
         Random random = new Random();
         int[] numbers = new int[n];
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = random.nextInt(100);
+            numbers[i] = random.nextInt(1000);
         }
         
-        System.out.println("Arreglo         : " + displayArray(numbers));
+        System.out.println("Arreglo Original: " + displayArray(numbers));
         shell(numbers);
-        System.out.println("Arreglo ordenado: " + displayArray(numbers));
+        System.out.println("Arreglo Ordenado: " + displayArray(numbers));
     }
 
     private static int[] shell(int A[]) {

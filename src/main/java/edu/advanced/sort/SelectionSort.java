@@ -1,4 +1,4 @@
-package orden;
+package edu.advanced.sort;
 
 public class SelectionSort {
 
@@ -36,6 +36,7 @@ public class SelectionSort {
         for (i = 0; i < n; i++) {
             System.out.print(A[i] + ", ");
         }
+        System.out.println();
 
     }
 

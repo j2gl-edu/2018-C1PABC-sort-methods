@@ -9,5 +9,6 @@
 
 ```sh
 mvn clean package
-java -jar target/binary-tree-1.0.0.jar
+java -cp target/sort-methods-1.0.0.jar edu.advanced.sort.ShellSort
+java -cp target/sort-methods-1.0.0.jar edu.advanced.sort.SelectionSort
 ```
