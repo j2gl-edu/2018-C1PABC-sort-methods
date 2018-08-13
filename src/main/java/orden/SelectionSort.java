@@ -3,6 +3,7 @@ package orden;
 public class SelectionSort {
 
     public static void main(String[] args) {
+        System.out.println("Selection Sort");
 
         int menor, indice, n, i, j;
         n = 20;
@@ -31,7 +32,7 @@ public class SelectionSort {
         }
 
         System.out.println();
-        System.out.print("EL ARREGLO ORDENADO: ");
+        System.out.print("Arreglo Ordenado: ");
         for (i = 0; i < n; i++) {
             System.out.print(A[i] + ", ");
         }

@@ -5,6 +5,8 @@ import java.util.Random;
 public class ShellSort {
 
     public static void main(String[] args) {
+        System.out.println("Shell Sort");
+
         int n = 20;
         Random random = new Random();
         int[] numbers = new int[n];
