@@ -15,7 +15,6 @@ public class ShellSort {
         System.out.println("Arreglo         : " + displayArray(numbers));
         shell(numbers);
         System.out.println("Arreglo ordenado: " + displayArray(numbers));
-
     }
 
     private static int[] shell(int A[]) {
